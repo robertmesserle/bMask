@@ -29,7 +29,6 @@ $ ->
       @set_position( @map[ @raw.length ] )
 
     keydown: ( e ) =>
-      console.log( e.keyCode )
       @clear_selection()
       if ( @ctrl ) then return true
       switch e.keyCode
@@ -91,7 +90,6 @@ $ ->
       @raw = []
       for ch, i in @mask
         @raw.push( @val[ i ] ) if ch != @val[ i ]
-      console.log @raw
 
     set_val_from_raw: ->
       @val = @mask[0..]
