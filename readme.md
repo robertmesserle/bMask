@@ -4,6 +4,6 @@ bMask is currently a proof-of-concept (not browser-tested) of an input masking p
 
 You can see a demo of this plugin here:
 
-[http://plunker.no.de/edit/6yY2og?live=preview](http://plunker.no.de/edit/6yY2og?live=preview)
+[http://run.plnkr.co/v99mVlGDioP9V6PI/](http://run.plnkr.co/v99mVlGDioP9V6PI/)
 
 In the future, I will add cross-browser compatibility, feature refinement, and a standard JavaScript version.
